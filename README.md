@@ -1,5 +1,6 @@
 # JAVAREA
-JAVAREA - Android Application used to control Electrical appliances through bluetooth
+JAVAREA - Android Application used to control Electrical appliances through bluetooth.
+
 In this app the user signs up, Enters the map of his house(Rooms, Electrical appliances, type of applicances) and gives each room and electrical appliance a name by which we can identify the appliance. Then there were two ways by which you could control your appliances by the User Interface or you could speak the room name,appliance name and what operation you wanted to do on it (On or off).
 
 This is app contains three major modules:
