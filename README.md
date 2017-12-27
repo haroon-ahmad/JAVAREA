@@ -1,19 +1,21 @@
 # JAVAREA
-JAVAREA - Android Application used to control Electrical appliances through bluetooth.
+JAVAREA - Android application designed to control electrical appliances via bluetooth.
 
-In this app the user signs up, Enters the map of his house(Rooms, Electrical appliances, type of applicances) and gives each room and electrical appliance a name by which we can identify the appliance. Then there were two ways by which you could control your appliances by the User Interface or you could speak the room name,appliance name and what operation you wanted to do on it (On or off).
+In this app the user signs up, enters the map of his house(Rooms, Electrical Appliances, Type of applicances) and gives each room and electrical appliance a name by which we can identify the appliance. Then, there are two ways by which you can control your appliances:
+1. User Interface
+2. Speaking the room name, appliance name and the operation to be performed (On or off).
 
-This is app contains three major modules:
+This App contains three major modules:
 
 -Communication with firebase
 
 -Communication with Bluetooth module
 
--Speech input and proccesing the speech inputs to commands.
+-Speech input and tokenizing of the speech input to valuable commands.
 
 Communication with firebase:
 
-We used firebase because it was a real time database and we can send and recieve data in real time.
+We used firebase because it was a real time database and we could send and recieve data in real time.
 
 Communication with bluetooth module:
 
@@ -21,6 +23,6 @@ For communication with the bluetooth module, all we needed was the mac address o
 
 Speech Processing:
 
-We used google's speech to text api for the input of the string and then we did some natural language processing with which we mapped the entered string with our dictionary. Also to minimize the error of google's api we used the minimum edit distance algorithm.
+We used Google's speech-to-text API for the input of the string and then we did some natural language processing with which we mapped the entered string to the closest match in our dictionary. Also to minimize the error of Google's Speech Recognition API, we used the minimum edit distance algorithm.
 
 
